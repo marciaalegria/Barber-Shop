@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#121619">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark" style="background-color:#121619">
         <a class="navbar-brand" href="#">    
             <img src="assets/images/logo.png" width="100" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
@@ -18,34 +18,81 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#fat">Nosotros</a>
+            <a class="nav-item nav-link" href="#one">Trabajos</a>
+            <a class="nav-item nav-link" href="#mdo">Blog</a>
+            <a class="nav-item nav-link" href="#two">Horas</a>
+            <a class="nav-item nav-link" href="#three">contacto</a>
           </div>
         </div>
       </nav>
 
-    <main class="main">
-        <img src="assets/images/post-image.jpg" alt="">
-        <h1>5 formas de cuidar tu cabello</h1>
-    </main>
-    <section class="section">
-        <h2>12 abril 2018</h2>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      
+      
+    <section id="mdo" class="section">
+      <div class="card bg-dark text-white">
+        <img src="assets/images/post-image.jpg" class="card-img" alt="foto-portada">
+        <div class="card-img-overlay">
+          <h5 class="card-title"> 5 formas de cuidar tu cabello</h5>
+        </div>
+      </div>
+        
+    </section>
+    <section class="section mt-3">
+      <div class="container">
+        <p id="fat">12 abril 2018</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quam doloremque inventore omnis iusto officiis exercitationem enim maxime eligendi odit dolore asperiores aspernatur distinctio dolor, facere, dolores nobis. Maiores, nam.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit autem aliquam temporibus repudiandae ipsam voluptatibus perspiciatis eos. Reiciendis eaque, hic nostrum ut quaerat quibusdam nisi, velit iusto inventore ipsam quis!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas optio in ducimus, dolorum sint commodi quo beatae repellat doloribus aliquam exercitationem eius ipsum culpa quod recusandae laborum quae! Tempore!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quae, sequi dolorum numquam officiis eos magni odio laboriosam esse nam, consequuntur ipsam tempora molestias quisquam quos quas similique beatae accusamus!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolorem accusamus distinctio accusantium quasi in! Eius sunt rem, optio voluptatum officiis illum pariatur natus sequi modi iusto? Illum, delectus natus.</p>
-        <button>c</button><button>d</button>
+        <button type="button" class="btn btn-dark">Compartir</button>
+        <button type="button" class="btn btn-dark">Comentar en twitter</button>
+      </div>
+
     </section>
-    <section>naomi
-        <img src="assets/images/naomi-thai.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi et, unde corrupti minus dolorum sequi rerum nulla possimus officiis, molestias voluptatem ad eum libero vitae vero accusantium amet. Mollitia!</p>
+    <section class="section" id="one">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <img src="assets/images/naomi-thai.png" alt="">
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <h2 >oneNaomi Thai</h2>
+            <p>@Naothai <br> depelos.com</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi et, unde corrupti minus dolorum sequi rerum nulla possimus officiis, molestias voluptatem ad eum libero vitae vero accusantium amet. Mollitia!</p>
+          </div>
+            
+            
+
+        </div>
+
+      </div>
+
+      </section>
+    <section id="two">
+      
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </section>
-    <footer class="footer">
-        <img src="assets/images/logo.png" alt="">
-    </footer>
+    <div class="container_fluid bg-dark">
+        <footer id="three" class="footer">
+          <img src="assets/images/logo.png" alt="">
+        </footer>
+    </div>
+
+  </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
